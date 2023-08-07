@@ -17,7 +17,7 @@ string ConvertirCesar(string f)
     {
         if (f[i]>='A' && f[i]<='Z')
         {
-            f[i]=((f[i]-'A' + 1) % 26) + 'A';
+            f[i]=((f[i]-'A' + 3) % 26) + 'A';
         }
     }
     return f;
